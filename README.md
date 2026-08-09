@@ -1,10 +1,11 @@
-# Alexander Zaiats
+# Oleksandr Zaiats
 
 Senior DevOps / Platform Engineer focused on secure, repeatable cloud platforms and a smooth developer experience.
 
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
 [![FluxCD](https://img.shields.io/badge/FluxCD-5468FF?logo=flux&logoColor=white)](https://fluxcd.io/)
+[![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)](https://helm.sh/)
 [![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/)
 [![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)](https://go.dev/)
@@ -24,6 +25,7 @@ Senior DevOps / Platform Engineer focused on secure, repeatable cloud platforms 
 | [kctx](https://github.com/Alexandr-Zayats/kctx) | Fast multi-cloud Kubernetes context switching without static cloud credentials | Go, AWS SSO, GCP, DigitalOcean |
 | [Terraform modules](https://github.com/Alexandr-Zayats/devops-terraform) | Reusable infrastructure modules across cloud and Kubernetes layers | Terraform, AWS, GCP, Kubernetes |
 | [FluxCD platform manifests](https://github.com/Alexandr-Zayats/devops-fluxcd) | Composable GitOps building blocks for operators, infrastructure and services | FluxCD, Kustomize, Helm |
+| [Helm platform charts](https://github.com/Alexandr-Zayats/helm-platform-charts) | Reusable namespace governance, maintenance routing and Elastic observability packages | Helm, Kubernetes, ECK, AWS ALB |
 | [Terragrunt stacks](https://github.com/Alexandr-Zayats/devops-terragrunt) | Dependency-aware, multi-environment platform composition | Terragrunt, Terraform, AWS |
 | [GitLab CI building blocks](https://github.com/Alexandr-Zayats/devops-gitlab-ci) | Reusable build, test, release and deployment templates | GitLab CI, Docker, Kubernetes |
 
