@@ -1,6 +1,6 @@
 # Oleksandr Zaiats
 
-Senior DevOps / Platform Engineer focused on secure, repeatable cloud platforms and a smooth developer experience.
+Senior DevOps / Platform Engineer building EnvPlane — secure environment orchestration for Kubernetes teams.
 
 [![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
 [![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
@@ -9,6 +9,10 @@ Senior DevOps / Platform Engineer focused on secure, repeatable cloud platforms 
 [![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
 [![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/)
 [![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)](https://go.dev/)
+
+## EnvPlane
+
+Building [EnvPlane](https://envplane.dev), an enterprise environment orchestration platform for Kubernetes teams. It brings environment lifecycle, Helm, Flux CD, multi-cluster visibility and governed execution into one control plane.
 
 ## What I build
 
@@ -21,6 +25,7 @@ Senior DevOps / Platform Engineer focused on secure, repeatable cloud platforms 
 
 | Project | Engineering focus | Technologies |
 |---|---|---|
+| [EnvPlane](https://envplane.dev) | Enterprise environment orchestration for Kubernetes teams | Kubernetes, Helm, Flux CD, Go |
 | [Admin Gateway Platform](https://github.com/Alexandr-Zayats/multi-environment-admin-gateway-platform) | On-demand database consoles with OIDC, RBAC, audit and Kubernetes discovery | Go, Next.js, Kubernetes, Helm |
 | [kctx](https://github.com/Alexandr-Zayats/kctx) | Fast multi-cloud Kubernetes context switching without static cloud credentials | Go, AWS SSO, GCP, DigitalOcean |
 | [Terraform modules](https://github.com/Alexandr-Zayats/devops-terraform) | Reusable infrastructure modules across cloud and Kubernetes layers | Terraform, AWS, GCP, Kubernetes |
@@ -38,7 +43,9 @@ Senior DevOps / Platform Engineer focused on secure, repeatable cloud platforms 
 
 ## Contact
 
+- Product and early access: [hello@envplane.dev](mailto:hello@envplane.dev)
 - Email: [alex@zaiats.de](mailto:alex@zaiats.de)
+- Website: [envplane.dev](https://envplane.dev)
 - GitHub: [@Alexandr-Zayats](https://github.com/Alexandr-Zayats)
 
 Public repositories contain reusable examples and no production credentials or environment-specific secrets.
