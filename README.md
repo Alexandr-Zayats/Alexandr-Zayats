@@ -1,51 +1,59 @@
 # Oleksandr Zaiats
 
-Senior DevOps / Platform Engineer building EnvPlane — secure environment orchestration for Kubernetes teams.
+**Senior Platform / DevOps Engineer · AWS · Kubernetes · Terraform · SRE**
 
-[![Kubernetes](https://img.shields.io/badge/Kubernetes-326CE5?logo=kubernetes&logoColor=white)](https://kubernetes.io/)
-[![Terraform](https://img.shields.io/badge/Terraform-844FBA?logo=terraform&logoColor=white)](https://www.terraform.io/)
-[![FluxCD](https://img.shields.io/badge/FluxCD-5468FF?logo=flux&logoColor=white)](https://fluxcd.io/)
-[![Helm](https://img.shields.io/badge/Helm-0F1689?logo=helm&logoColor=white)](https://helm.sh/)
-[![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonwebservices&logoColor=white)](https://aws.amazon.com/)
-[![Google Cloud](https://img.shields.io/badge/Google_Cloud-4285F4?logo=googlecloud&logoColor=white)](https://cloud.google.com/)
-[![Go](https://img.shields.io/badge/Go-00ADD8?logo=go&logoColor=white)](https://go.dev/)
+I design, build and operate cloud platforms that help engineering teams ship software independently, with clear boundaries around access, reliability and cost. My work connects platform architecture with hands-on implementation and production operations.
 
-## EnvPlane
+Based in Germany, open to international remote opportunities and B2B collaborations. English is my technical working language.
 
-Building [EnvPlane](https://envplane.dev), an enterprise environment orchestration platform for Kubernetes teams. It brings environment lifecycle, Helm, Flux CD, multi-cluster visibility and governed execution into one control plane.
+[LinkedIn](https://www.linkedin.com/in/alexandrzayats/) · [EnvPlane](https://envplane.dev/) · [Email](mailto:alex@zaiats.de)
 
-## What I build
+## Platform engineering and reliability
 
-- Kubernetes platforms with GitOps delivery, policy, observability and secure secrets management.
-- Reusable Terraform and Terragrunt building blocks for AWS, Google Cloud and multi-environment infrastructure.
-- CI/CD systems that make build, test, release and deployment workflows consistent across teams.
-- Developer tooling in Go that turns complex operational workflows into safe self-service capabilities.
+- **Cloud foundations:** AWS architecture, Kubernetes/EKS, networking, IAM and Linux.
+- **Developer platforms:** reusable Terraform/Terragrunt modules, self-service environments and automated provisioning and teardown.
+- **Software delivery:** GitHub Actions, GitLab CI, GitOps, Helm and Ansible.
+- **Production reliability:** Prometheus, Grafana, ELK/EFK, SLO/SLA responsibility, on-call, incident response and root-cause analysis.
 
-## Featured engineering work
+My professional background includes building and operating a greenfield AWS/Kubernetes platform at Betario, creating production-like developer environments, and improving deployment workflows and observability. I value platforms that teams can understand, operate and maintain without depending on one person.
 
-| Project | Engineering focus | Technologies |
-|---|---|---|
-| [EnvPlane](https://envplane.dev) | Enterprise environment orchestration for Kubernetes teams | Kubernetes, Helm, Flux CD, Go |
-| [Admin Gateway Platform](https://github.com/Alexandr-Zayats/multi-environment-admin-gateway-platform) | On-demand database consoles with OIDC, RBAC, audit and Kubernetes discovery | Go, Next.js, Kubernetes, Helm |
-| [kctx](https://github.com/Alexandr-Zayats/kctx) | Fast multi-cloud Kubernetes context switching without static cloud credentials | Go, AWS SSO, GCP, DigitalOcean |
-| [Terraform modules](https://github.com/Alexandr-Zayats/devops-terraform) | Reusable infrastructure modules across cloud and Kubernetes layers | Terraform, AWS, GCP, Kubernetes |
-| [FluxCD platform manifests](https://github.com/Alexandr-Zayats/devops-fluxcd) | Composable GitOps building blocks for operators, infrastructure and services | FluxCD, Kustomize, Helm |
-| [Helm platform charts](https://github.com/Alexandr-Zayats/helm-platform-charts) | Reusable namespace governance, maintenance routing and Elastic observability packages | Helm, Kubernetes, ECK, AWS ALB |
-| [Terragrunt stacks](https://github.com/Alexandr-Zayats/devops-terragrunt) | Dependency-aware, multi-environment platform composition | Terragrunt, Terraform, AWS |
-| [GitLab CI building blocks](https://github.com/Alexandr-Zayats/devops-gitlab-ci) | Reusable build, test, release and deployment templates | GitLab CI, Docker, Kubernetes |
+## Selected public projects
+
+These repositories show platform tooling, reference implementations and reusable infrastructure components. See each repository for its architecture, setup and project-specific guidance.
+
+| Project | Focus |
+| --- | --- |
+| [Kubernetes Admin Gateway](https://github.com/Alexandr-Zayats/multi-environment-admin-gateway-platform) | Go control plane and Next.js frontend for on-demand administrative consoles, with OIDC, RBAC and Kubernetes integration. |
+| [kctx](https://github.com/Alexandr-Zayats/kctx) | Go tooling for Kubernetes context switching across AWS, GCP and DigitalOcean, including AWS SSO support. |
+| [Terraform modules](https://github.com/Alexandr-Zayats/devops-terraform) | Reusable infrastructure modules for AWS, Google Cloud and Kubernetes. |
+| [Terragrunt stacks](https://github.com/Alexandr-Zayats/devops-terragrunt) | Composable stacks and units for multi-environment cloud infrastructure. |
+| [FluxCD platform configuration](https://github.com/Alexandr-Zayats/devops-fluxcd) | GitOps-managed Kubernetes manifests and platform services. |
+| [Helm platform charts](https://github.com/Alexandr-Zayats/helm-platform-charts) | Reusable charts for namespace governance, maintenance routing and ECK observability. |
+| [GitLab CI building blocks](https://github.com/Alexandr-Zayats/devops-gitlab-ci) | Reusable build, test, release and deployment templates. |
+
+## Building EnvPlane
+
+[EnvPlane](https://envplane.dev/) is my independent environment-orchestration project, currently in private preview. It focuses on the lifecycle of Kubernetes environments: from a source-control event through deployment, operational visibility and teardown.
+
+The architecture separates central coordination from execution near the target cluster, with Helm and Flux CD delivery paths. Current work includes scoped access, auditability and cost visibility.
+
+[Explore the EnvPlane repositories](https://github.com/EnvPlane)
+
+## Exploring AI infrastructure
+
+Alongside my established platform work, I am developing practical experience with local AI inference and agent workflows. My recent work includes a local MLX inference server with an OpenAI-compatible API, structured outputs, evaluations and human approval workflows.
+
+The engineering question I focus on is how to give agents useful capabilities while keeping permissions, execution and verification under explicit control.
 
 ## Engineering principles
 
-1. **Automate the repeatable:** operational knowledge belongs in code, pipelines and documented workflows.
-2. **Secure by default:** short-lived identity, least privilege, protected secrets and auditable access.
-3. **Design for recovery:** deterministic delivery, observable systems and reversible changes.
-4. **Optimize developer experience:** platform abstractions should remove toil without hiding essential system behavior.
+- Keep repeatable operational knowledge in code, pipelines and documented workflows.
+- Use least privilege, short-lived identity and auditable access.
+- Design for recovery with observable systems and reversible changes.
+- Remove developer toil without hiding essential system behavior.
 
-## Contact
+## Connect
 
-- Product and early access: [hello@envplane.dev](mailto:hello@envplane.dev)
-- Email: [alex@zaiats.de](mailto:alex@zaiats.de)
-- Website: [envplane.dev](https://envplane.dev)
-- GitHub: [@Alexandr-Zayats](https://github.com/Alexandr-Zayats)
+Interested in senior platform engineering, developer self-service, production reliability or AI infrastructure? Reach out on [LinkedIn](https://www.linkedin.com/in/alexandrzayats/) or at [alex@zaiats.de](mailto:alex@zaiats.de).
 
-Public repositories contain reusable examples and no production credentials or environment-specific secrets.
+For EnvPlane product and early-access inquiries: [hello@envplane.dev](mailto:hello@envplane.dev).
